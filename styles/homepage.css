@@ -1,0 +1,210 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+main .heading {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(255, 85, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.HOME{
+    background-image: url("https://fleishigs.com/_next/image?url=/imgs/homepage/hero.webp&w=3840&q=75");
+    background-size: cover;
+    background-position: center;
+background-color: rgb(72 94 94 / 76%);
+height: 100vh;
+   
+}
+
+.Navigationbar  {
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+   
+   
+    background-size: cover;
+}
+
+.navagtion-conatiner {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    border: 1px solid orange;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+.image-wrapper {
+    width: 70px;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.image-wrapper img {
+    width: 100%;
+    height: auto;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    margin-right: 10px;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.column-sepreate, .column-colour {
+    width: 1px;
+    height: 60px;
+    background-color: white;
+    margin: 0 10px;
+}
+
+.login, .cart-wrapper {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.login {
+    margin-right: 10px;
+    font-size: 14px;
+    color: white
+}
+
+.cart-wrapper #cart {
+    color: white
+}
+
+svg {
+    fill: rgb(199, 75, 75)
+}
+
+.login p {
+    margin-right: 10px;
+}
+.home-text-wrapper{
+     text-align: left;
+     margin-left: 30px;
+     margin-top: 40px;
+}
+.home-text-wrapper h1{
+     font-size: 120px;
+     letter-spacing: 2px;
+     text-transform: uppercase;
+     color: rgb(255, 255, 255);
+    
+     
+}
+.home-text-wrapper p{
+    font-size: 20px;
+    margin-top: 5px;
+    color: white;
+    
+}
+.container-product{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 320px;
+    height: 120px;
+    border: 1px solid rgb(255, 255, 255);
+    margin-left: 100px;
+     margin-top: 80px;
+     border-radius: 12px;
+     margin-left: 30px;
+     
+}
+.image-wrapper-product{
+    
+   
+    width: 100px;
+}
+.container-product img{
+   background-color: pink;
+    height: auto;
+    width:100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+   margin-left: 10px;
+}
+.details-products{
+    text-align: left;
+    font-size: 18px;
+  color: white; 
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+   
+    
+}
+.details-products #year-product{
+ margin-bottom: 10px;
+ font-family: 700;
+ margin-bottom:14px;
+}
+.details-products #subscription-product{
+    margin-bottom: 10px;
+    font-weight: bolder;
+    
+}
+
+.details-products #price-product{
+     font-size: 20px;
+}
+
+  .icon-wrapper {
+    display: inline-flex; 
+    align-items: center;
+    justify-content: center;
+    width: 50px; 
+    height: 50px;
+    background-color: orange;
+    border-radius: 50%; 
+    margin-right: 10px;
+  }
+  
+  .icon-wrapper svg {
+    width: 30px;
+    height: 30px;
+  }
+  
