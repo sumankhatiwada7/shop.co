@@ -29,7 +29,7 @@ main .heading {
     background-size: cover;
     background-position: center;
 background-color: rgb(72 94 94 / 76%);
-height: 100vh;
+height: 110vh;
    
 }
 
@@ -85,7 +85,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: white;
+    color: #ff4200;
     font-weight: bold;
     text-transform: uppercase;
     font-size: 20px;
@@ -110,17 +110,22 @@ nav ul li a {
     color: white
 }
 
+.login a{
+    text-decoration: none;
+    color: #ff4200;
+}
 .cart-wrapper #cart {
-    color: white
+    color: #ff4200;
 }
 
 svg {
-    fill: rgb(199, 75, 75)
+    fill:#ff4200;
 }
 
 .login p {
     margin-right: 10px;
 }
+
 .home-text-wrapper{
      text-align: left;
      margin-left: 30px;
@@ -207,4 +212,118 @@ svg {
     width: 30px;
     height: 30px;
   }
-  
+  .product{
+    height: 150vh;
+  }
+  .product-container{
+    margin-top: 20px;    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .product #head{
+   text-align: center;
+   font-size: 90px;
+   margin-top: 100px;
+   text-transform: uppercase;
+   color: #ff4200;
+  }
+  .first-product{
+    width: 400px;
+    height: 550px;
+    border: 1px solid rgb(191, 184, 184);
+   text-align: center;
+    border-radius: 13px;
+    margin-left: 20px;
+    
+  }
+  .img-product{
+   width: 170px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 40px;
+  }
+  .img-product img{
+    width: 100%;
+    height: auto;
+  }
+  .product-details #date {
+    font-size:20px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: rgb(218, 220, 222)    ;
+    margin-top: 20px;
+    
+  }
+  .product-details h1{
+    font-weight: bolder;
+    margin-top: 20px;
+    font-size: 30px;
+  }
+
+  .product-details #price{
+    margin-top: 10px;
+    font-size: 30px;
+  }
+  .button-products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .button-products button{
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    color: #ff4200;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+  }
+  .button-products #buy-button{
+    background-color: #ff4200;
+    color: white;
+    border: none    ;
+    
+  }
+  .button-products #cart-button{
+     background-color: transparent;
+     border: 1px solid rgb(191, 184, 184);
+  }
+  .second-product{
+    width: 400px;
+    height: 550px;
+    border: 1px solid rgb(191, 184, 184);
+   text-align: center;
+    border-radius: 13px;
+    margin-left: 20px;
+    
+  }
+  .third-product{
+    width: 400px;
+    height: 550px;
+    border: 1px solid rgb(191, 184, 184);
+   text-align: center;
+    border-radius: 13px;
+    margin-left: 20px;
+    
+  }
+.button-seemore{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 100px;
+}
+.button-seemore button{
+border: none;
+    width: 200PX;
+    height: 40px;
+    text-align: center;
+    background-color: #ff4200;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 12px;
+    color:white;
+    font-weight: 100;
+}
+
+
