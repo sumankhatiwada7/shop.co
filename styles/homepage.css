@@ -6,7 +6,8 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+  font-family: "Funnel Display", sans-serif;
+  
     scroll-behavior: smooth;
 }
 
@@ -27,7 +28,7 @@ main .heading {
 .HOME{
     background-image: url("https://fleishigs.com/_next/image?url=/imgs/homepage/hero.webp&w=3840&q=75");
     background-size: cover;
-    background-position: center;
+  background-position: right;
 background-color: rgb(72 94 94 / 76%);
 height: 110vh;
    
@@ -48,7 +49,7 @@ height: 110vh;
     display: flex;
     width: 100%;
     align-items: center;
-    border: 1px solid orange;
+    border: 1px solid white;
     border-radius: 10px;
     padding: 10px;
 }
@@ -85,10 +86,11 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #ff4200;
+    color: white;
     font-weight: bold;
     text-transform: uppercase;
     font-size: 20px;
+  
 }
 
 .column-sepreate, .column-colour {
@@ -112,14 +114,14 @@ nav ul li a {
 
 .login a{
     text-decoration: none;
-    color: #ff4200;
+    color:white;
 }
 .cart-wrapper #cart {
-    color: #ff4200;
+    color: white;
 }
 
 svg {
-    fill:#ff4200;
+    fill:white;
 }
 
 .login p {
@@ -245,6 +247,27 @@ svg {
   .img-product img{
     width: 100%;
     height: auto;
+    animation: fadeIn 200ms ease-in-out;
+  }
+  .img-product img:hover{
+    animation: rotate 200ms ease-in-out;
+  }
+  @keyframes fadeIN {
+    0%{
+      opacity: 0%;
+    }
+    100%{
+      opacity: 100%;
+    }
+  }
+  @keyframes rotate {
+      0%{
+        transform: rotate(0deg);
+      }
+      100%{
+        transform:rotate(360deg);
+      }
+    
   }
   .product-details #date {
     font-size:20px;
